@@ -27,7 +27,6 @@ plt.show()
 
 plt.grid(True, 'major', 'both')
 
-k2[2011] *= 10.0
 y2 = k2[2004:2019]
 y2 = [i/100 for i in y2]
 plt.ylim((0, max(y2)/0.9))
